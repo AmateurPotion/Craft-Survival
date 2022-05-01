@@ -1,0 +1,1008 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22494) 64bit Core' Language: 'ko' Physical Memory: 32647 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/D-workspace/unity/Craft Survival/Craft Survival
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+13282
+Successfully changed project path to: D:/D-workspace/unity/Craft Survival/Craft Survival
+D:/D-workspace/unity/Craft Survival/Craft Survival
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 75.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/D-workspace/unity/Craft Survival/Craft Survival/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002726 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (846ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (547ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (877ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (55.6 KB). Loaded Objects now: 2838.
+Memory consumption went from 113.0 MB to 112.9 MB.
+Total: 3.319200 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.165800 ms MarkObjects: 2.823100 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097156 -> 4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86243.458349 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/003 Candle.fbx
+  artifactKey: Guid(5b4da7e07210a4ca0bbcf2cd74248616) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/003 Candle.fbx using Guid(5b4da7e07210a4ca0bbcf2cd74248616) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c66c5a0a13205e8f0a28c566bba8718d') in 0.203724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/lava.tga
+  artifactKey: Guid(76a41a9860261cb4e8ceda1c039f53dc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/lava.tga using Guid(76a41a9860261cb4e8ceda1c039f53dc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a36cc648816d0aadbadf55cfba46983f') in 0.023968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/017 Santa_claus.fbx
+  artifactKey: Guid(46990cbe35394486b92b5add2ab881a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/017 Santa_claus.fbx using Guid(46990cbe35394486b92b5add2ab881a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34f4a51d2bd8f587a47fa6dd9178a75d') in 0.021699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileSets/granit grass.asset
+  artifactKey: Guid(c1a249947947af54c96e5b5b7c61d0c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/granit grass.asset using Guid(c1a249947947af54c96e5b5b7c61d0c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64e501e16c9b0dfacf92466f9f768bf6') in 0.011303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/dirt stones.tga
+  artifactKey: Guid(675cb6411f36989469f42a1a69297d71) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/dirt stones.tga using Guid(675cb6411f36989469f42a1a69297d71) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9299cf5aff569a210446c9cc5f543880') in 0.011292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/054 Xmas_Tree.fbx
+  artifactKey: Guid(490e3a0c0950443cd9409a797b802dc8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/054 Xmas_Tree.fbx using Guid(490e3a0c0950443cd9409a797b802dc8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bebfa9767e375945c6aa849d7061dd6d') in 0.012703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/010 Christmas_Socks.fbx
+  artifactKey: Guid(63404f5fa27cc49d4a4249ee39a3e3f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/010 Christmas_Socks.fbx using Guid(63404f5fa27cc49d4a4249ee39a3e3f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3341880b60eb30251fb02876fb48f2e') in 0.010934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TileSets/ice.asset
+  artifactKey: Guid(532f311f51c6bd74997eede780e89479) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/ice.asset using Guid(532f311f51c6bd74997eede780e89479) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6137434687ca641394263c2956624f4f') in 0.007715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileSets/lava.asset
+  artifactKey: Guid(4f15a1a6e1d6c2b4b843fddf9cb54305) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/lava.asset using Guid(4f15a1a6e1d6c2b4b843fddf9cb54305) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4262a4fc04c571c6fb61d32c7bc969bb') in 0.009095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TileSets/default.prefab
+  artifactKey: Guid(61aa2aeb49fef854197548bda2cc0947) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/default.prefab using Guid(61aa2aeb49fef854197548bda2cc0947) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fed82d8f3d9a7e10ca0c879e1a60225') in 0.025924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/076 Xmas_Boy.fbx
+  artifactKey: Guid(8a5ada697ea584101905dc3a8ad04b37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/076 Xmas_Boy.fbx using Guid(8a5ada697ea584101905dc3a8ad04b37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da9d3b8cc5cf84131b8b9d20efbc24c') in 0.024289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/066 Xmas_Girl.fbx
+  artifactKey: Guid(6ad8a122058534d75a111605d13ced17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/066 Xmas_Girl.fbx using Guid(6ad8a122058534d75a111605d13ced17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00e63c1dfbffb0944cd3ec02356f88ee') in 0.032849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializableDictionary/SerializableDictionary.pdf
+  artifactKey: Guid(8eb73a56b3a6ee64ab2c30cac8878d8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SerializableDictionary/SerializableDictionary.pdf using Guid(8eb73a56b3a6ee64ab2c30cac8878d8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9081dbb8ac3ebb3fc5145637d4703330') in 0.020501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/sand stones.mat
+  artifactKey: Guid(8ddb7669be2264b4dacc1af3768b5064) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/sand stones.mat using Guid(8ddb7669be2264b4dacc1af3768b5064) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76d5773d1f0d8b008aaff47631213597') in 0.016916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/032 Cake.fbx
+  artifactKey: Guid(7e392ccc39de7407e9b24d65f28a9e1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/032 Cake.fbx using Guid(7e392ccc39de7407e9b24d65f28a9e1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5713d910ee9567578268a9a0f773cb70') in 0.027981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/055 Xmas_Tree.fbx
+  artifactKey: Guid(9eaeb063a723240c083efc0215e1ce54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/055 Xmas_Tree.fbx using Guid(9eaeb063a723240c083efc0215e1ce54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e177d5f4aad4daf4abbb7af160169e56') in 0.018188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/TileSets/grey dirt stones.asset
+  artifactKey: Guid(363aa2f2a79beea469e2ee27116ac2c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/grey dirt stones.asset using Guid(363aa2f2a79beea469e2ee27116ac2c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2965fb17213144e64764482fe01c1470') in 0.009520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/033 Xmas_candy_bag.fbx
+  artifactKey: Guid(aa4d77d0b5dbf4040b8497b884099cfa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/033 Xmas_candy_bag.fbx using Guid(aa4d77d0b5dbf4040b8497b884099cfa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '607214d83066e14c3baa6b373ab96c6a') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializableDictionary/SerializableDictionary.cs
+  artifactKey: Guid(e7be1c9624387604fba4005ccf7dbd5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SerializableDictionary/SerializableDictionary.cs using Guid(e7be1c9624387604fba4005ccf7dbd5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d5422ab38fe8e66fdc9ff0883cf7cf7') in 0.022364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/069 Rabbir.fbx
+  artifactKey: Guid(465ed9d1959734b94b20cd26a1069e60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/069 Rabbir.fbx using Guid(465ed9d1959734b94b20cd26a1069e60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88d26af1b284e3b9e2fe7d9d6af648c0') in 0.040521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx
+  artifactKey: Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx using Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d38e7262d5fdec20c78a69c985eaac6') in 0.025193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/022 Chicken.fbx
+  artifactKey: Guid(6a9255af3ca374d6c89c0b3b19fc9504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/022 Chicken.fbx using Guid(6a9255af3ca374d6c89c0b3b19fc9504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62f7a7106e3c4587f7fa9680950ef0a7') in 0.055894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/024 Shoes.fbx
+  artifactKey: Guid(7d20319bcdd2e436198d8f31615f72c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/024 Shoes.fbx using Guid(7d20319bcdd2e436198d8f31615f72c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aecd46667b05ebe1a4e1055d0fb4ea2d') in 0.030482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/074 Gift_Boxes.fbx
+  artifactKey: Guid(3512469e2cab1422898f5770049a9b91) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/074 Gift_Boxes.fbx using Guid(3512469e2cab1422898f5770049a9b91) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '593913ee00abbb4691d549f217c4e368') in 0.015974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/031 Xmas_Crackers.fbx
+  artifactKey: Guid(acb83af9195d7416faf206710fdc327e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/031 Xmas_Crackers.fbx using Guid(acb83af9195d7416faf206710fdc327e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06a5015599b06530632460f0838efc78') in 0.014419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/005 Candy_Stick.prefab
+  artifactKey: Guid(f0aca05c4d7ab4f9d89b8b1819187377) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/005 Candy_Stick.prefab using Guid(f0aca05c4d7ab4f9d89b8b1819187377) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20a8dd41579640e65c1125dc3d88495a') in 0.012795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/095 Gold_Coin.fbx
+  artifactKey: Guid(59279c98e86db4dd288c91c219704009) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/095 Gold_Coin.fbx using Guid(59279c98e86db4dd288c91c219704009) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebf792e43034e6088fa58d6bd85e6abe') in 0.014463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/018 Buggy.prefab
+  artifactKey: Guid(056580141d8ac4aa48cfc091e83d213f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/018 Buggy.prefab using Guid(056580141d8ac4aa48cfc091e83d213f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4db443c2faf879c071219d048a8f084') in 0.012301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/100 Snow_Ball.prefab
+  artifactKey: Guid(bb195bc7f38c54465a0dd8ff9742893b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/100 Snow_Ball.prefab using Guid(bb195bc7f38c54465a0dd8ff9742893b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6fac074eb98c0c2809d9550488c620b') in 0.010121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/082 Chicken.fbx
+  artifactKey: Guid(2d177b6aa459d43e4a392d2881d9ce12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/082 Chicken.fbx using Guid(2d177b6aa459d43e4a392d2881d9ce12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '841c66c84862365b342e262d78bcc35e') in 0.032548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/097 Candle.fbx
+  artifactKey: Guid(38522033f23b847b5b8ec806986898db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/097 Candle.fbx using Guid(38522033f23b847b5b8ec806986898db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a3a92c40f2dfcc12624f95dbb1db6a6') in 0.016943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/023 Socks.prefab
+  artifactKey: Guid(bfb6e1d22748a43b892cadbc2cf55e94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/023 Socks.prefab using Guid(bfb6e1d22748a43b892cadbc2cf55e94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd77d89aba27b0b6f080b2ca0fe4a65c') in 0.010495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/093 Bucket.fbx
+  artifactKey: Guid(023bec0a17bc445bb90f2e6f23177347) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/093 Bucket.fbx using Guid(023bec0a17bc445bb90f2e6f23177347) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '398be1907c10ac95b25912c0538a5ac3') in 0.019731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/021 Teapot.prefab
+  artifactKey: Guid(773506bb2f5224c4bbba55189e347dda) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/021 Teapot.prefab using Guid(773506bb2f5224c4bbba55189e347dda) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84ea47393ad5e3f21a72778518b50cae') in 0.011255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/006 Santa_Claus_Hat.prefab
+  artifactKey: Guid(93d44d72c6ba84f33adf2a315684d176) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/006 Santa_Claus_Hat.prefab using Guid(93d44d72c6ba84f33adf2a315684d176) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ad9ecd1211332ccc8bebaa74444ec3e') in 0.012502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/013 Hand_gloves.prefab
+  artifactKey: Guid(265223284db4f4d4cad7aef3f518a5b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/013 Hand_gloves.prefab using Guid(265223284db4f4d4cad7aef3f518a5b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df17c09494a4916023720984cb661742') in 0.013041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Materials/Black.mat
+  artifactKey: Guid(23207a364e96240e0beb90224e02b5a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Materials/Black.mat using Guid(23207a364e96240e0beb90224e02b5a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f910c09556f3af26b3005d26eb4212ca') in 0.007824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/096 Plants.fbx
+  artifactKey: Guid(30fdd48a2959c4603833a6d9ef282023) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/096 Plants.fbx using Guid(30fdd48a2959c4603833a6d9ef282023) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2042abd39563020df690b5ea934aa5d3') in 0.018212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/057 Star.fbx
+  artifactKey: Guid(5d5be753d4cb143959581ebf9dab36cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/057 Star.fbx using Guid(5d5be753d4cb143959581ebf9dab36cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cc7807d5dcb7eed4e5572427c7f0a8d') in 0.015850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/053 Xmas_Tree.fbx
+  artifactKey: Guid(c73c90d36a0e3464eb8c28e578545f2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/053 Xmas_Tree.fbx using Guid(c73c90d36a0e3464eb8c28e578545f2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '129ea2329011084b08ac11e98987c137') in 0.014065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TileSets/leafs.asset
+  artifactKey: Guid(af22f194ec9d5b64bbadab6e31e72477) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/leafs.asset using Guid(af22f194ec9d5b64bbadab6e31e72477) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6f012b5c3bcc56df2d067dc7812b732') in 0.007782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/037 Christmas_Socks.fbx
+  artifactKey: Guid(6c49b1040a9cf43899f8f6dcfb89218d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/037 Christmas_Socks.fbx using Guid(6c49b1040a9cf43899f8f6dcfb89218d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cc365f718dcee0a178bd286248f8c48') in 0.024021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/051 Xmas_Tree.fbx
+  artifactKey: Guid(1e9ad55d9e75147c29a57215d10fc773) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/051 Xmas_Tree.fbx using Guid(1e9ad55d9e75147c29a57215d10fc773) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f8366bb5a9b008ec3fb3d38f1f46ce7') in 0.141917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx
+  artifactKey: Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx using Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b3a87cf1192bd06f95f1fdfb6319537') in 0.017769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/087 Dog.fbx
+  artifactKey: Guid(f60bcc5005b444f9483eee847006a80a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/087 Dog.fbx using Guid(f60bcc5005b444f9483eee847006a80a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1392621103895bbb4cf6e9df0fa1c18b') in 0.012525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TileSets/Ice blue.asset
+  artifactKey: Guid(57ad084b5a2ad8442a0cf2ba46d47b98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TileSets/Ice blue.asset using Guid(57ad084b5a2ad8442a0cf2ba46d47b98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7b0ca08a3c4f773854812b01cd4eab6') in 0.007002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/052 Xmas_Tree.fbx
+  artifactKey: Guid(e54a35c01d6054b699baff324ef17c9e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/052 Xmas_Tree.fbx using Guid(e54a35c01d6054b699baff324ef17c9e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6f9c7a110c480adf7c03105d6394351') in 0.009296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/065 Deer.fbx
+  artifactKey: Guid(299dc2592b9a04a13bdc9aa4164732b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/065 Deer.fbx using Guid(299dc2592b9a04a13bdc9aa4164732b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '464aa23983db1beef5dec586385a9fc7') in 0.028247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/035 Xmas_toy.fbx
+  artifactKey: Guid(c6d100024b23c47af86245c9c87482e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/035 Xmas_toy.fbx using Guid(c6d100024b23c47af86245c9c87482e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee847e617436e7e9d3c53c73fcfb1fe5') in 0.017648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/080 Caw.fbx
+  artifactKey: Guid(c97a32230a1af4069855c49a53036f02) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/080 Caw.fbx using Guid(c97a32230a1af4069855c49a53036f02) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69a7c28e130a86d32a652da5d829b57b') in 0.022229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Ice blue.tga
+  artifactKey: Guid(11f3f024aa614454c8b24f3cbb2007f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Ice blue.tga using Guid(11f3f024aa614454c8b24f3cbb2007f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e279f6058dcce35083f55df2949e5e80') in 0.010762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/072 Buggy.fbx
+  artifactKey: Guid(dc04591551e02489493b434f846e1bf9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/072 Buggy.fbx using Guid(dc04591551e02489493b434f846e1bf9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8f1a37fb7042a0da6951c7cc035c9d3') in 0.034622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx
+  artifactKey: Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx using Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '914ebab5f160f1d6039716d634c1cd43') in 0.034641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/098 Coffin.fbx
+  artifactKey: Guid(7a54105f31e5b4ed8ab9000aa4f4bd9a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/098 Coffin.fbx using Guid(7a54105f31e5b4ed8ab9000aa4f4bd9a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '116267fb926f26e0f162ad217a7f0f07') in 0.008488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI Toolkit/PanelSettings.asset
+  artifactKey: Guid(24c6800ea907fd24683cb63230723823) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(24c6800ea907fd24683cb63230723823) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd64e52bbaf43760fbb597c655e9ded6c') in 0.033005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.448183 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/024 Shoes.prefab
+  artifactKey: Guid(f93c24acb997748589b57cf0e7f2efcb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/024 Shoes.prefab using Guid(f93c24acb997748589b57cf0e7f2efcb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89680b801a118389f2f197b34f08ef31') in 0.014279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/077 Xmas_Girl.prefab
+  artifactKey: Guid(9424f2aca5e45452296b870825f3184b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/077 Xmas_Girl.prefab using Guid(9424f2aca5e45452296b870825f3184b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ae298c6b9640ddb99f13b5f7a80269f') in 0.016480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/056 Star.prefab
+  artifactKey: Guid(9296de9be092543cea0572f6ca5660ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/056 Star.prefab using Guid(9296de9be092543cea0572f6ca5660ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67c92279cef036ac5413a00024e0ce3d') in 0.010226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/060 Star.prefab
+  artifactKey: Guid(51f99f17740e043e3964f8ecfc4dc7a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/060 Star.prefab using Guid(51f99f17740e043e3964f8ecfc4dc7a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23d31318c83abe8197184b3e7b1f4ac2') in 0.012253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stones_and_buried_treasure/3d_Models/Stones_and_buried_treasure.FBX
+  artifactKey: Guid(5f3a7deba91ee3341b2266db1be8c0a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/3d_Models/Stones_and_buried_treasure.FBX using Guid(5f3a7deba91ee3341b2266db1be8c0a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c43ffafdacc291189ad2201a6ea6f211') in 0.233066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/071 Buggy.prefab
+  artifactKey: Guid(967ec538915a14cd1a7605479cff23f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/071 Buggy.prefab using Guid(967ec538915a14cd1a7605479cff23f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '698b39d74b6c264406d2652a280f2758') in 0.029322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/054 Xmas_Tree.prefab
+  artifactKey: Guid(cd5728506158f4e1abd93f9a50457a16) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/054 Xmas_Tree.prefab using Guid(cd5728506158f4e1abd93f9a50457a16) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5a6c6ab0fbad419b200f91ca0202f1d') in 0.022065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/091 Black_Hat.prefab
+  artifactKey: Guid(f8cfe2bfb4fa84671ad18dba8fe2211d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/091 Black_Hat.prefab using Guid(f8cfe2bfb4fa84671ad18dba8fe2211d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e52cb7a5f8af501405487643c35d3a73') in 0.016283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/035 Xmas_toy.prefab
+  artifactKey: Guid(73e3e418012e84f9382dc67e62d4d8e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/035 Xmas_toy.prefab using Guid(73e3e418012e84f9382dc67e62d4d8e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3dd610d794a904cd99b1e31538a1791') in 0.021348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/Contents/ContentLoader.cs
+  artifactKey: Guid(0d4be784dc125ec4887cae247158fb2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Contents/ContentLoader.cs using Guid(0d4be784dc125ec4887cae247158fb2d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8751601c6f16124da03aa7691d12dc2a') in 0.010289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Bone.mat
+  artifactKey: Guid(1ea9f06a678176f4e8a48fed8bdefde5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Bone.mat using Guid(1ea9f06a678176f4e8a48fed8bdefde5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0eb6b435092c29bc2872a4b1ec98e96') in 0.016400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/059 Star.prefab
+  artifactKey: Guid(5549c0fe4db1f4430b4ce4ec6fde36a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/059 Star.prefab using Guid(5549c0fe4db1f4430b4ce4ec6fde36a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e738e23ff77792f44de2239756e6ce6') in 0.011719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Tree_Fir_Foliage.mat
+  artifactKey: Guid(aa2d461b65885d241821c6e73a2999ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Tree_Fir_Foliage.mat using Guid(aa2d461b65885d241821c6e73a2999ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6a139e80cb8a44d59f71cd771443c35') in 0.011151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Skull.prefab
+  artifactKey: Guid(331828e5d69fcf148a4fa6dadc2c2f41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Skull.prefab using Guid(331828e5d69fcf148a4fa6dadc2c2f41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb723acc69901f9f215368c7de957259') in 0.018940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_12.prefab
+  artifactKey: Guid(e745df1298631f24789a1313146ae9a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_12.prefab using Guid(e745df1298631f24789a1313146ae9a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d873b6a46478ecf26ff21fa8899d44e') in 0.016310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_14.prefab
+  artifactKey: Guid(0e4460f2e6af8534883922004bca99b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_14.prefab using Guid(0e4460f2e6af8534883922004bca99b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72bff8d399bfb20b037360d54d23a099') in 0.010636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Ground.mat
+  artifactKey: Guid(aab3062433dfe3244b122685a77f1c69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Ground.mat using Guid(aab3062433dfe3244b122685a77f1c69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db19834e4d32dbc466ab7290a15b3ac8') in 0.011595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Elixir_Of_Health.prefab
+  artifactKey: Guid(fb1342e2566442642a1b0da9756b066e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Elixir_Of_Health.prefab using Guid(fb1342e2566442642a1b0da9756b066e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19ea8383c4187edac8a67d9fa09209b9') in 0.016790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Ruby.mat
+  artifactKey: Guid(9e821f0f773f0114e9df5ba24a0abad5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Ruby.mat using Guid(9e821f0f773f0114e9df5ba24a0abad5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '246cbd92b59784ca8cc305833a029186') in 0.009097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/064 Xmas_Boy.prefab
+  artifactKey: Guid(034719f8f01e8475d8013497840a3edf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/064 Xmas_Boy.prefab using Guid(034719f8f01e8475d8013497840a3edf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88e826461a2e0be3e1a873990d089116') in 0.015637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Flask_Mana.mat
+  artifactKey: Guid(cd77ea8e05fb8e34c8487a2b5ef72f81) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Flask_Mana.mat using Guid(cd77ea8e05fb8e34c8487a2b5ef72f81) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fe6ffc2d25c23b277a21c0b03a02147') in 0.009931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/075 Deer.prefab
+  artifactKey: Guid(26ae0eab97133498295a3d528f4b0a7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/075 Deer.prefab using Guid(26ae0eab97133498295a3d528f4b0a7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0afba8a1a681d82f7240eb690d0e269f') in 0.015533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/027 Xmas_bell.prefab
+  artifactKey: Guid(d59b64f87bef744c89310f9a5d53097c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/027 Xmas_bell.prefab using Guid(d59b64f87bef744c89310f9a5d53097c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b84fc908d3dcd74fcfcc949ebb93d86c') in 0.013675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/041 Xmas_Bell.prefab
+  artifactKey: Guid(53f29cc505b57423a91163d2285373ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/041 Xmas_Bell.prefab using Guid(53f29cc505b57423a91163d2285373ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9442a36da531c83e50d341f9bfe96de') in 0.012801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Bullion.prefab
+  artifactKey: Guid(71af532755e61c7439f07e35d89278f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Bullion.prefab using Guid(71af532755e61c7439f07e35d89278f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e031b684d1ef4c2c2fc0759d8f9c247') in 0.014474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Rocks_and_grass_2.prefab
+  artifactKey: Guid(97291d2df068db2439009ca97285ddff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Rocks_and_grass_2.prefab using Guid(97291d2df068db2439009ca97285ddff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07176e988e4411d0111234c27b975779') in 0.011244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b1b7d5bae47557327120d63e09f1d41') in 0.009990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '979432a0d4a053654b3e98baa93cbd51') in 0.015962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_9.prefab
+  artifactKey: Guid(74bece5c87deaa946b1d5c129a3123af) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_9.prefab using Guid(74bece5c87deaa946b1d5c129a3123af) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bcadb6f26352b499b3906c3a72a26a3') in 0.012770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/Contents/Structure.cs
+  artifactKey: Guid(3064f78d8ef5fc5429f34d499ac62e60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Contents/Structure.cs using Guid(3064f78d8ef5fc5429f34d499ac62e60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2d4b96bfa9edb316d34ce35a038317d') in 0.010027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/038 Christmas_Socks.prefab
+  artifactKey: Guid(37d63e2c21b194850afe63bb47c29bc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/038 Christmas_Socks.prefab using Guid(37d63e2c21b194850afe63bb47c29bc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd91deee4063b1c98a7eb3bdf19c1acfa') in 0.014062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f798d1a671d99067327b89bfafc3d461') in 0.010716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/079 House.prefab
+  artifactKey: Guid(d4e6f0d22c2134d1db0f29932d980f4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/079 House.prefab using Guid(d4e6f0d22c2134d1db0f29932d980f4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '842170e43e709a442e40eee286e03cb2') in 0.017148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Shield.prefab
+  artifactKey: Guid(75940785cec02894881375a52dcba655) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Shield.prefab using Guid(75940785cec02894881375a52dcba655) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caab0cd42a6db083fd5853600f5dd49a') in 0.016993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/044 Xmas_Tree.prefab
+  artifactKey: Guid(01f1dcb48546a48979d1b87081871a8b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/044 Xmas_Tree.prefab using Guid(01f1dcb48546a48979d1b87081871a8b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34f677b7be4fc1d503c823d462689c9f') in 0.012906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Wood_1.mat
+  artifactKey: Guid(b25397e34de9b8648b8b72a73099bfb2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Wood_1.mat using Guid(b25397e34de9b8648b8b72a73099bfb2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c304434514584e8dca35e36584f85e2') in 0.012195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Tree_Fir_Wood.mat
+  artifactKey: Guid(ca1bc2fdd0017fc46ba22b6198dd83ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Tree_Fir_Wood.mat using Guid(ca1bc2fdd0017fc46ba22b6198dd83ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04fefea51fbc28b52d0f86fd417571ca') in 0.010055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Сrystal_1.prefab
+  artifactKey: Guid(2485624f732b618439e23cb8081d41dc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Сrystal_1.prefab using Guid(2485624f732b618439e23cb8081d41dc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57aab81543ed89d23dafa11fa4451434') in 0.022656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dca91be7b793e5627e5d236df2212fea') in 0.026813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_17.prefab
+  artifactKey: Guid(56c471fa60a91ff47aad2dc54e7d196a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_17.prefab using Guid(56c471fa60a91ff47aad2dc54e7d196a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2dd2ab71007659b443e2705739ee473') in 0.017630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_7.prefab
+  artifactKey: Guid(41746623d92e6994586a79f8ebd3681a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_7.prefab using Guid(41746623d92e6994586a79f8ebd3681a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '305b82f1735556bf0551f4df466a0666') in 0.035832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Crown.prefab
+  artifactKey: Guid(60843c6f0abfe104f8c631aabae51301) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Crown.prefab using Guid(60843c6f0abfe104f8c631aabae51301) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '809a7a25c9df43679f38fbc9cd0c64e4') in 0.034335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06595169d5c24278d8dbd3041e4ea1ca') in 0.073452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/048 Xmas_Tree.prefab
+  artifactKey: Guid(c20e59c8e7a3642c2adf474568ce6af4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/048 Xmas_Tree.prefab using Guid(c20e59c8e7a3642c2adf474568ce6af4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17acaba0e9d52bfc48931014fd2cd433') in 0.013069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/052 Xmas_Tree.prefab
+  artifactKey: Guid(23d9bc525b6f2411f895bbc5c47ae4fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/052 Xmas_Tree.prefab using Guid(23d9bc525b6f2411f895bbc5c47ae4fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b111e8186ed3c55fde9226fe3a020d4') in 0.012354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_15.prefab
+  artifactKey: Guid(7e9e129d389d7b840aff77f25f41451c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_15.prefab using Guid(7e9e129d389d7b840aff77f25f41451c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0f37e3cdde868c9b5360894277177f7') in 0.008917 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (62.3 KB). Loaded Objects now: 2839.
+Memory consumption went from 65.5 MB to 65.5 MB.
+Total: 5.393100 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.261000 ms MarkObjects: 4.505400 ms  DeleteObjects: 0.171400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097156 -> 4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.592999 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/036 Xmas_Tree.prefab
+  artifactKey: Guid(1524918add1b546fca23b3706476ee5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/036 Xmas_Tree.prefab using Guid(1524918add1b546fca23b3706476ee5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0910cc71297f1abf99952d822a7f18e4') in 0.012984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/047 Xmas_Tree.prefab
+  artifactKey: Guid(b8e299300bf9a474ab17288d33cef1cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/047 Xmas_Tree.prefab using Guid(b8e299300bf9a474ab17288d33cef1cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31557b55355154fd9855187650be858f') in 0.017461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/099 Box.prefab
+  artifactKey: Guid(2d0f3fdadabf94a78877f7b579519fb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/099 Box.prefab using Guid(2d0f3fdadabf94a78877f7b579519fb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '299984cce6bff6c93eb615ee44df6ecf') in 0.015539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scripts/Contents/Item.cs
+  artifactKey: Guid(2cf977fc1dbc3f944930a3102d734f41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Contents/Item.cs using Guid(2cf977fc1dbc3f944930a3102d734f41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92276c2226aa1ddb3c9389d41eb24a09') in 0.008024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/World/Player.cs
+  artifactKey: Guid(0c42cd7bac86af947b93928997829ca3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/World/Player.cs using Guid(0c42cd7bac86af947b93928997829ca3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2499ff085be73f403c1d1bad221ce02') in 0.012233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Scenes/Debug/Debug.unity
+  artifactKey: Guid(5d293675cb93c1d458eee7d90bee360d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Debug/Debug.unity using Guid(5d293675cb93c1d458eee7d90bee360d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f094bffcb0a58b1a69fdb7b1819ef859') in 0.015018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/073 Xmas_Tree.prefab
+  artifactKey: Guid(87e1a9afd67494fc4a54238433641d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/073 Xmas_Tree.prefab using Guid(87e1a9afd67494fc4a54238433641d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12d3daf701916685977fb4c60f8574e9') in 0.016977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329607 seconds.
+  path: Assets/Stones_and_buried_treasure/Materials/Stell.mat
+  artifactKey: Guid(581bcb63dc607ec4ebc2a6d2096dfc92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Materials/Stell.mat using Guid(581bcb63dc607ec4ebc2a6d2096dfc92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fd4161cebb2ed0ec2e386ad1a490c24') in 0.014486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Сoin.prefab
+  artifactKey: Guid(e3df14a44368b9c47a6175eebd31535d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Сoin.prefab using Guid(e3df14a44368b9c47a6175eebd31535d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce4b4c87410715fb464e0cd9245dfc8a') in 0.015852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Stone_10.prefab
+  artifactKey: Guid(df00b95dd377f8f4fa6a75377aa47a42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Stone_10.prefab using Guid(df00b95dd377f8f4fa6a75377aa47a42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec702a8e3a0c12b67efb0b8d8aa3e736') in 0.014414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Chest_Closed.prefab
+  artifactKey: Guid(64284ca1518bc524492fa4fc9e82ce94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Chest_Closed.prefab using Guid(64284ca1518bc524492fa4fc9e82ce94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66f3c298882521d4ad1e5319ace5149a') in 0.021321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72d151e66d371d135a4aa3caf887f04d') in 0.016923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Barrel_Closed.prefab
+  artifactKey: Guid(4d272402a09cecd42a5f9f5d73589fc7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Barrel_Closed.prefab using Guid(4d272402a09cecd42a5f9f5d73589fc7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8cbb9f0c0bd2fbd30e4c7727bf17a10') in 0.013241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Ruby.prefab
+  artifactKey: Guid(20df3b3bdddb94f47b7d2e59e491ff51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Ruby.prefab using Guid(20df3b3bdddb94f47b7d2e59e491ff51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ddca1af6b23dc7daaad2ff84b06dea3') in 0.013456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Stones_and_buried_treasure/Prefabs/Rocks_and_grass_1.prefab
+  artifactKey: Guid(83561575068bf2042a4f289885d89d2f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stones_and_buried_treasure/Prefabs/Rocks_and_grass_1.prefab using Guid(83561575068bf2042a4f289885d89d2f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'effd38d78fb6b5c767210c243deec89a') in 0.015024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b308fd88f10f86527ef14e98224ffe11') in 0.006462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292379 seconds.
+  path: Assets/Scripts/Contents/Nature/Tree/Resources/Tree_glow.prefab
+  artifactKey: Guid(2e1318f54d7f72d4bb3b706bcaf53b2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Contents/Nature/Tree/Resources/Tree_glow.prefab using Guid(2e1318f54d7f72d4bb3b706bcaf53b2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3b1568aa10167571bd71aae9c5834cb') in 0.012625 seconds 
